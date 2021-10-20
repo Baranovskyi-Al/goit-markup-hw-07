@@ -1,0 +1,35 @@
+// Особенности
+
+.specificities {
+  padding-bottom: 0;
+}
+
+.specificities__list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.specificities-card {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
+
+.specificities-card__thumb {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: var(--another-background-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.specificities-card__title {
+  color: var(--primary-title-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
